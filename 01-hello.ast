@@ -1,0 +1,65 @@
+<<ROOT>> 0x1652550->{TOK_ROOT(297) 0:0.000 "<<ROOT>>" [0x1656b00 0x1657310 0x16576b0 0x1657a10 0x1656eb0 0x1658090 0x16582b0 0x16584d0 0x16586f0 0x1658a10 0x1658d10 0x1658ea0]}
+    0x1656b00->{TOK_PROTOTYPE(302) 5:23.000 "" [0x16567c0 0x16568e0]}
+      void 0x16567c0->{TOK_VOID(258) 5:23.000 "void" [0x1656840]}
+         __assert_fail 0x1656840->{TOK_DECLID(287) 5:23.005 "__assert_fail" []}
+      ( 0x16568e0->{TOK_PARAMLIST(290) 5:23.019 "(" [0x1656980 0x1656ba0 0x1656d00]}
+         string 0x1656980->{TOK_STRING(262) 5:23.020 "string" [0x1656a20]}
+            expr 0x1656a20->{TOK_DECLID(287) 5:23.027 "expr" []}
+         string 0x1656ba0->{TOK_STRING(262) 5:23.033 "string" [0x1656c20]}
+            file 0x1656c20->{TOK_DECLID(287) 5:23.040 "file" []}
+         int 0x1656d00->{TOK_INT(261) 5:23.046 "int" [0x1656d50]}
+            line 0x1656d50->{TOK_DECLID(287) 5:23.050 "line" []}
+    0x1657310->{TOK_PROTOTYPE(302) 5:24.000 "" [0x1657060 0x1657140]}
+      void 0x1657060->{TOK_VOID(258) 5:24.000 "void" [0x16570b0]}
+         putb 0x16570b0->{TOK_DECLID(287) 5:24.005 "putb" []}
+      ( 0x1657140->{TOK_PARAMLIST(290) 5:24.010 "(" [0x16571c0]}
+         bool 0x16571c0->{TOK_BOOL(259) 5:24.011 "bool" [0x1657230]}
+            b 0x1657230->{TOK_DECLID(287) 5:24.016 "b" []}
+    0x16576b0->{TOK_PROTOTYPE(302) 5:25.000 "" [0x1657420 0x16574e0]}
+      void 0x1657420->{TOK_VOID(258) 5:25.000 "void" [0x1657470]}
+         putc 0x1657470->{TOK_DECLID(287) 5:25.005 "putc" []}
+      ( 0x16574e0->{TOK_PARAMLIST(290) 5:25.010 "(" [0x1657560]}
+         char 0x1657560->{TOK_CHAR(260) 5:25.011 "char" [0x16575d0]}
+            c 0x16575d0->{TOK_DECLID(287) 5:25.016 "c" []}
+    0x1657a10->{TOK_PROTOTYPE(302) 5:26.000 "" [0x16577c0 0x1657890]}
+      void 0x16577c0->{TOK_VOID(258) 5:26.000 "void" [0x1657840]}
+         puti 0x1657840->{TOK_DECLID(287) 5:26.005 "puti" []}
+      ( 0x1657890->{TOK_PARAMLIST(290) 5:26.010 "(" [0x1657910]}
+         int 0x1657910->{TOK_INT(261) 5:26.011 "int" [0x1657960]}
+            i 0x1657960->{TOK_DECLID(287) 5:26.015 "i" []}
+    0x1656eb0->{TOK_PROTOTYPE(302) 5:27.000 "" [0x1657b20 0x1657be0]}
+      void 0x1657b20->{TOK_VOID(258) 5:27.000 "void" [0x1657b70]}
+         puts 0x1657b70->{TOK_DECLID(287) 5:27.005 "puts" []}
+      ( 0x1657be0->{TOK_PARAMLIST(290) 5:27.010 "(" [0x1657c60]}
+         string 0x1657c60->{TOK_STRING(262) 5:27.011 "string" [0x1657cb0]}
+            s 0x1657cb0->{TOK_DECLID(287) 5:27.018 "s" []}
+    0x1658090->{TOK_PROTOTYPE(302) 5:28.000 "" [0x1657f80 0x1658040]}
+      void 0x1657f80->{TOK_VOID(258) 5:28.000 "void" [0x1657fd0]}
+         endl 0x1657fd0->{TOK_DECLID(287) 5:28.005 "endl" []}
+      ( 0x1658040->{'('(40) 5:28.010 "(" []}
+    0x16582b0->{TOK_PROTOTYPE(302) 5:29.000 "" [0x1658170 0x1658230]}
+      int 0x1658170->{TOK_INT(261) 5:29.000 "int" [0x16581c0]}
+         getc 0x16581c0->{TOK_DECLID(287) 5:29.004 "getc" []}
+      ( 0x1658230->{'('(40) 5:29.009 "(" []}
+    0x16584d0->{TOK_PROTOTYPE(302) 5:30.000 "" [0x1658390 0x1658450]}
+      string 0x1658390->{TOK_STRING(262) 5:30.000 "string" [0x16583e0]}
+         getw 0x16583e0->{TOK_DECLID(287) 5:30.007 "getw" []}
+      ( 0x1658450->{'('(40) 5:30.012 "(" []}
+    0x16586f0->{TOK_PROTOTYPE(302) 5:31.000 "" [0x16585b0 0x1658670]}
+      string 0x16585b0->{TOK_STRING(262) 5:31.000 "string" [0x1658600]}
+         getln 0x1658600->{TOK_DECLID(287) 5:31.007 "getln" []}
+      ( 0x1658670->{'('(40) 5:31.013 "(" []}
+    0x1658a10->{TOK_PROTOTYPE(302) 5:32.000 "" [0x1657f30 0x1658990]}
+      string 0x1657f30->{TOK_STRING(262) 5:32.000 "string" [0x1658860 0x16588b0]}
+         [] 0x1658860->{TOK_ARRAY(272) 5:32.006 "[]" []}
+         getargv 0x16588b0->{TOK_DECLID(287) 5:32.009 "getargv" []}
+      ( 0x1658990->{'('(40) 5:32.017 "(" []}
+    0x1658d10->{TOK_PROTOTYPE(302) 5:33.000 "" [0x1658ad0 0x1658b90]}
+      void 0x1658ad0->{TOK_VOID(258) 5:33.000 "void" [0x1658b20]}
+         exit 0x1658b20->{TOK_DECLID(287) 5:33.005 "exit" []}
+      ( 0x1658b90->{TOK_PARAMLIST(290) 5:33.010 "(" [0x1658c10]}
+         int 0x1658c10->{TOK_INT(261) 5:33.011 "int" [0x1658c60]}
+            status 0x1658c60->{TOK_DECLID(287) 5:33.015 "status" []}
+   ( 0x1658ea0->{TOK_CALL(284) 6:6.005 "(" [0x1658e20 0x1658ef0]}
+      puts 0x1658e20->{TOK_IDENT(279) 6:6.000 "puts" []}
+      "Hello, world!\n" 0x1658ef0->{TOK_STRINGCON(282) 6:6.006 ""Hello, world!\n"" []}
